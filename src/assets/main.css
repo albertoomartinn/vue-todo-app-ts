@@ -1,1 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --color-navy-night: #0a1931;
+  --color-deep-ocean: #1a3d63;
+  --color-sky-steel: #b3cfe5;
+  --color-frost-blue: #4a7fa7;
+  --color-ice-mist: #f6fafd;
+}
