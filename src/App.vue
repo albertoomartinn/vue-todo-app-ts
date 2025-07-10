@@ -1,5 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppLayout from '@/layout/AppLayout.vue'
+import TasksPage from './pages/TasksPage.vue'
+</script>
 
 <template>
-  <div>HelloWorld</div>
+  <AppLayout>
+    <TasksPage />
+  </AppLayout>
 </template>
