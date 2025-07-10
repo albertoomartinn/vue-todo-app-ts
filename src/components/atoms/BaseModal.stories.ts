@@ -1,4 +1,3 @@
-// BaseModal.stories.ts
 import BaseModal from './BaseModal.vue'
 import type { StoryFn } from '@storybook/vue3'
 

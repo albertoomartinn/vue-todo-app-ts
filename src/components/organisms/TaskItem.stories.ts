@@ -67,7 +67,6 @@ const Template: StoryFn<typeof TaskItem> = (args) => ({
       }
     })
 
-    // Formatear fecha para mostrar
     const formattedCreateAt = computed(() => {
       const date = new Date(task.value.createdAt)
       return new Intl.DateTimeFormat('es-ES', {
